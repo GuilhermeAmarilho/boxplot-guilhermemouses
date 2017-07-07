@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  </head>
+  <body background='http://4kwallpapershd.com/wp-content/uploads/2016/07/Black-Lines-Background-Photo-1440x900.jpg'>
+    <div class='container'>
+      <div class="form">
+        <label for="nota">Valor:</label>
+        <input id="add" type="number"step="1" value="0" min="0" class='input'>
+        <button class="button add">Adicionar</button><br/>
+      </div>
+      <div class="atributes">
+        <div class="val">
+          <label>Valores:</label>
+          <output id="valores" class="valores"></output><br>
+        </div>
+        <div class="atributos">
+          <label>Mínimo:</label>
+          <output id="min" class="valores"></output>
+          <label>Máximo:</label>
+          <output id="max" class="valores"></output>
+          <label>Média:</label>
+          <output id="med" class="valores"></output>
+          <label>Mediana:</label>
+          <output id="median" class="valores"></output>
+          <label>Amplitude:</label>
+          <output id="amp" class="valores"></output>
+          <label>Desvio padrão:</label>
+          <output id="dp" class="valores dp"></output>
+        </div>
+      </div>
+      <div class="boxplot">
+      </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

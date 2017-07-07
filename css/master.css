@@ -1,0 +1,63 @@
+*{
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+.valores{
+  margin-right: 25px;
+}
+.input{
+  width: 30px;
+  mar
+}
+button,input{
+  color:black;
+}
+div.val{
+  margin: 5px  0px;
+}
+.name{
+  width: 50px;
+}
+.container{
+  padding-top: 80px;
+  margin-left: 25%;
+}
+.atributos{
+  margin-left: 2%;
+}
+.add{
+  margin-bottom: 10px;
+}
+.form{
+  margin: 10px 0px;
+}
+hr{
+  width: 10px;
+  margin: 0px;
+}
+.boxplot{
+  transform: rotate(180deg);
+  width: 200px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.dive{
+  width: 100%;
+  border: 1px solid black;
+  background: silver;
+}
+p{
+  transform: rotate(180deg);
+  text-align: center;
+  margin: 0px;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+  color: blue;
+}
+.div{
+  width: 100%;
+}
+hr{
+  width: 100%;
+}
